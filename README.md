@@ -45,17 +45,21 @@ Web勤怠システムへの入力作業を自動化・効率化します。
 ## **🛠️ インストール手順**
 
 1. **リポジトリのクローン**  
+   ```
    git clone \<repository-url\>  
    cd get\_work\_result\_flet
+   ```
 
-2. **仮想環境の作成と有効化 (推奨)**  
+2. **仮想環境の作成と有効化 (推奨)**
+   ```
    python \-m venv venv  
    \# Windows  
    venv\\Scripts\\activate  
    \# Mac/Linux  
    source venv/bin/activate
+   ```
 
-3. **依存ライブラリのインストール**  
+4. **依存ライブラリのインストール**  
    pip install \-r requirements.txt
 
    ※ cryptography, flet, requests, beautifulsoup4, pdfplumber などがインストールされます。
