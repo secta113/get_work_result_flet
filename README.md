@@ -60,7 +60,7 @@ Web勤怠システムへの入力作業を自動化・効率化します。
    ```
 
 4. **依存ライブラリのインストール**  
-   pip install \-r requirements.txt
+   `pip install \-r requirements.txt`
 
    ※ cryptography, flet, requests, beautifulsoup4, pdfplumber などがインストールされます。
 
